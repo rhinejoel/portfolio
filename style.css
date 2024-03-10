@@ -156,7 +156,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: fit-content;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -340,6 +340,8 @@ section {
     display: flex;
     justify-content: center;
     padding: 5rem;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .article-container {
@@ -395,6 +397,12 @@ section {
 
 .details-container {
     gap: 2rem
+}
+
+/* PRJ SECTION */
+
+#prj {
+    
 }
 
 
