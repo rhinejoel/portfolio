@@ -36,7 +36,7 @@
         </div>
     </nav>
     <section id="profile">
-        <div>
+        <div class="section__pic-container">
             <img src="./assets/profile-pic-jr-2.png" alt="Joel Rhine Profile Picture">
         </div>
         <div class="section__text">
@@ -44,8 +44,27 @@
             <h1 class="title">Joel Rhine</h1>
             <p class="section__text__p2">Remote Sensing Software And Mechanical Engineer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/jr-resume.pdf')">Download Resume</button>
-                <button class="btn btn-color-1" onclick="location.href('./#contact')">Contact Me</button>
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/jr-resume.pdf')">Download Resume
+                </button>
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'">Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                src="./assets/linkedin.png" 
+                alt="My LinkedIn Profile" 
+                class="icon" 
+                onclick="location.href='https://linkedin.com/in/joel-rhine'"/>
+                <img 
+                src="./assets/github.png" 
+                alt="My Github Profile" 
+                class="icon" 
+                onclick="location.href='https://github.com/rhinejoel'"/>
+
             </div>
         </div>
     </section>
