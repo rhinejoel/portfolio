@@ -18,7 +18,8 @@
             <ul class="nav-links">
                 <li> <a href="#about">About</a></li>
                 <li> <a href="#experience">Experience</a></li>
-                <li> <a href="#projects">Projects</a></li>
+                <!-- <li> <a href="#projects">Projects</a></li> -->
+                <li> <a href="#prj">Projects</a></li>
                 <li> <a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -94,7 +95,7 @@
                     <div class="details-container">
                         <img src="./assets/us-status.png" alt="USA Status Icon" class="Icon">
                         <h3>USA Visa Status</h3>
-                        <p>US Lawful Permanent Resident (LPR) / Green Card <br>Citizenship Eligibility in 2025 via (US Citizen) Spouse</p>
+                        <p>US Lawful Permanent Resident (LPR) / Green Card <br>Citizenship Application Eligibility in 2025 (US Citizen Spouse)</p>
                     </div>
                 </div>
                 <div class="text-container">
@@ -280,45 +281,30 @@
                     </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon Next Section" class="icon arrow" onclick="location.href='./#projects'">
+        <img src="./assets/arrow.png" alt="Arrow Icon Next Section" class="icon arrow" onclick="location.href='./#prj'">
     </section>
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
+    <section id="prj">
+        <p class="section__text__p1">Browse Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-           <div class="project-article-container">
-                <img src="./assets/cube-sat-2.jpg" alt="Cube Sat Image 2" class="cube-sat">
-                <h2 class="experience-sub-title project-title">GW-CubeSat</h2>
-                <div class="button-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://engineering.gwu.edu/gw-cubesat-relaunch')">
-                        Home
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.nanosats.eu/sat/gw-sat')">
-                        Status
-                    </button>
-                </div>
-            </div>  
-            <div class="project-article-container">
-                <video width="400" controls>
-                    <source src="./assets/hovercraft.mov" type="video/mp4" alt="Hovercraft Project" class="hovercraft-video">
+        <ul class="project-filter">
+            <li class="list project-filter-active" data-filter="all">All</li>
+            <li class="list" data-filter="design">Design</li>
+            <li class="list" data-filter="gis">GIS</li>
+            <li class="list" data-filter="pm">Project Management</li>
+            <li class="list" data-filter="it">IT Services</li>
+        </ul>
+        <div class="project-container">
+            <a href="" class="project-box design">
+                <img src="./assets/cube-sat-2.jpg" alt="Project 1">
+            </a>
+            <a href="" class="project-box design">
+                <video height="600" controls>
+                    <source src="./assets/hovercraft.mov" type="video/mp4" alt="Hovercraft Project">
                 </video>
-                <h2 class="experience-sub-title project-title">Pilot Driven Hovercraft</h2>
-                <div class="button-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/hovercraft-ppt.pdf')">
-                        Presentation
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/hovercraft-report.pdf')">
-                        Report
-                    </button>
-                </div>
-            </div>   
+            </a>
         </div>
         <img src="./assets/arrow.png" alt="Arrow Icon Next Section" class="icon arrow" onclick="location.href='./#contact'">
     </section>
-    <!-- <section id="prj">
-        <p class="section__text__p1">Browse Recent</p>
-        <h1 class="title">Projects</h1>
-    </section> -->
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
@@ -340,14 +326,35 @@
                 <ul class="nav-links">
                     <li> <a href="#about">About</a></li>
                     <li> <a href="#experience">Experience</a></li>
-                    <li> <a href="#projects">Projects</a></li>
+                    <!-- <li> <a href="#projects">Projects</a></li> -->
+                    <li> <a href="#prj">Projects</a></li>
                     <li> <a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <p>Copyright &#169; 2024 Joel Rhine. All Rights Reserved</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        $(document).on('click', '.project-filter li', function() {
+            $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active')
+        });
+
+        // TODO Fix filter for other tabs and add project content
+        $(document).ready(function(){
+            $('.list').click(function() {
+                const value = $(this).attr('data-filter');
+                if(value == 'all') {
+                    $('.project-box').show('1000');
+                }
+                else {
+                    $('.project-box').not('.'+value).hide('1000');
+                    $('.project-box').filter('.'+value).hide('1000');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
 
