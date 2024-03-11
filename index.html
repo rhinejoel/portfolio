@@ -239,8 +239,8 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
-                                <h3>MS Teams Suite</h3>
-                                <p>Experienced</p>
+                                <h3>PM Methodologies</h3>
+                                <p>Intermediate+</p>
                             </div>
                         </article>
                         <article>
@@ -253,28 +253,56 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
-                                <h3>Agile</h3>
+                                <h3>MS Suite</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Project Initiation</h3>
                                 <p>Intermediate+</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
-                                <h3>Technical Proposal Development</h3>
+                                <h3>Risk Management</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
-                                <h3>IT Admin</h3>
+                                <h3>Communication</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
                             <div>
-                                <h3>Mentorship</h3>
+                                <h3>Leadership</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Organization</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Capacity Development</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Public Speaking</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
@@ -290,7 +318,7 @@
             <li class="list project-filter-active" data-filter="all">All</li>
             <li class="list" data-filter="design">Design</li>
             <li class="list" data-filter="gis">GIS</li>
-            <li class="list" data-filter="pm">Project Management</li>
+            <!-- <li class="list" data-filter="pm">Project Management</li> -->
             <li class="list" data-filter="it">IT Services</li>
         </ul>
         <div class="project-container">
@@ -302,7 +330,7 @@
                     <button class="btn btn-color-1" onclick="window.open('https://engineering.gwu.edu/gw-cubesat-relaunch')">Home</button>
                 </div>
             </div>
-            <div class="project-article gis">
+            <div class="project-article design">
                 <h2>Pilot Driven Hovercraft</h2>
                 <video class="project-box" height="600" controls>
                     <source src="./assets/hovercraft.mov" type="video/mp4" alt="Hovercraft Project Video">
@@ -356,51 +384,16 @@
             $('.list').click(function() {
                 const value = $(this).attr('data-filter');
                 if(value == 'all') {
-                    $('.project-article').show();
+                    $('.project-article').show(300);
                 }
                 else {
                     console.log(value)
-                    $('.project-article').show();
-                    $('.project-article').not('.'+value).hide();
-                    // $('.project-article').filter('.'+value).style.visibility='hidden';
+                    // $('.project-article').show();
+                    $('.project-article').not('.'+value).hide(300);
+                    $('.project-article').filter('.'+value).show(300);
                 }
             });
         });
     </script>
 </body>
 </html>
-
-<!-- onclick="location.href='https://linkedin.com/in/joel-rhine', '_blank'"/> ** SAME WINDOW ** --> 
-<!-- <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-           <div class="project-article-container">
-                <img src="./assets/cube-sat-2.jpg" alt="Cube Sat Image 2" class="cube-sat">
-                <h2 class="experience-sub-title project-title">GW-CubeSat</h2>
-                <div class="button-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://engineering.gwu.edu/gw-cubesat-relaunch')">
-                        Home
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.nanosats.eu/sat/gw-sat')">
-                        Status
-                    </button>
-                </div>
-            </div>  
-            <div class="project-article-container">
-                <video width="400" controls>
-                    <source src="./assets/hovercraft.mov" type="video/mp4" alt="Hovercraft Project" class="hovercraft-video">
-                </video>
-                <h2 class="experience-sub-title project-title">Pilot Driven Hovercraft</h2>
-                <div class="button-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/hovercraft-ppt.pdf')">
-                        Presentation
-                    </button>
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/hovercraft-report.pdf')">
-                        Report
-                    </button>
-                </div>
-            </div>   
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon Next Section" class="icon arrow" onclick="location.href='./#contact'">
-    </section> -->
