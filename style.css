@@ -226,7 +226,7 @@ section {
 
 .btn {
     font-weight: 600;
-    /* font-family: inherit; */
+    font-family: inherit;
     transition: all 300ms ease;
     padding: 1rem;
     width: 10rem;
@@ -433,13 +433,6 @@ section {
     user-select: none;
 }
 
-/* .list:hover {
-    color: grey;
-    text-decoration: underline;
-    text-underline-offset: 1rem; 
-    text-decoration-color: rgb(181, 181, 181);
-} */
-
 .project-filter-active {
     /* background-color: #f0f0f0;
     color: #272727; */
@@ -458,19 +451,36 @@ section {
     margin: auto;
 }
 
-.project-box {
+.project-article {
     width: 330px;
     padding: 15px;
-    border: 1px solid #eeeeee;
     margin: 20px;
+    border: 1px solid #eeeeee;
+    align-items: center;
+    text-align: center;
 }
 
-.project-box > img {
+.project-article > h2 {
+    color: black;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.project-box {
     width: 100%;
     height: 100%;
     overflow: hidden;
     border-radius: 5px;
 }
+
+.prj-btns {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    height: auto;
+}
+
 
 /* CONTACT */
 

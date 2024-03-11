@@ -294,14 +294,24 @@
             <li class="list" data-filter="it">IT Services</li>
         </ul>
         <div class="project-container">
-            <a href="https://www.nanosats.eu/sat/gw-sat" target="_blank" class="project-box design">
-                <img src="./assets/cube-sat-2.jpg" alt="Project 1">
-            </a>
-            <a href="./assets/hovercraft-report.pdf" target="_blank" class="project-box design">
+            <div class="project-article">
+                <h2>GW-CubeSat</h2>
+                <img src="./assets/cube-sat-2.jpg" alt="Cube Sat 3D Assembly Image" class="project-box">
+                <div class="prj-btns">
+                    <button class="btn btn-color-1" onclick="window.open('https://www.nanosats.eu/sat/gw-sat')">Status</button>
+                    <button class="btn btn-color-1" onclick="window.open('https://engineering.gwu.edu/gw-cubesat-relaunch')">Home</button>
+                </div>
+            </div>
+            <div class="project-article">
+                <h2>Pilot Driven Hovercraft</h2>
                 <video height="600" controls>
-                    <source src="./assets/hovercraft.mov" type="video/mp4" alt="Hovercraft Project">
+                    <source src="./assets/hovercraft.mov" type="video/mp4" alt="Hovercraft Project Video">
                 </video>
-            </a>
+                <div class="prj-btns">
+                    <button class="btn btn-color-1" onclick="window.open('./assets/hovercraft-ppt.pdf')">Presentation</button>
+                    <button class="btn btn-color-1" onclick="window.open('./assets/hovercraft-report.pdf')">Report</button>
+                </div>
+            </div>  
         </div>
         <img src="./assets/arrow.png" alt="Arrow Icon Next Section" class="icon arrow" onclick="location.href='./#contact'">
     </section>
