@@ -294,7 +294,7 @@
             <li class="list" data-filter="it">IT Services</li>
         </ul>
         <div class="project-container">
-            <div class="project-article">
+            <div class="project-article design">
                 <h2>GW-CubeSat</h2>
                 <img src="./assets/cube-sat-2.jpg" alt="Cube Sat 3D Assembly Image" class="project-box">
                 <div class="prj-btns">
@@ -302,9 +302,9 @@
                     <button class="btn btn-color-1" onclick="window.open('https://engineering.gwu.edu/gw-cubesat-relaunch')">Home</button>
                 </div>
             </div>
-            <div class="project-article">
+            <div class="project-article gis">
                 <h2>Pilot Driven Hovercraft</h2>
-                <video height="600" controls>
+                <video class="project-box" height="600" controls>
                     <source src="./assets/hovercraft.mov" type="video/mp4" alt="Hovercraft Project Video">
                 </video>
                 <div class="prj-btns">
@@ -356,11 +356,13 @@
             $('.list').click(function() {
                 const value = $(this).attr('data-filter');
                 if(value == 'all') {
-                    $('.project-box').show('1000');
+                    $('.project-article').show();
                 }
                 else {
-                    $('.project-box').not('.'+value).hide('1000');
-                    $('.project-box').filter('.'+value).hide('1000');
+                    console.log(value)
+                    $('.project-article').show();
+                    $('.project-article').not('.'+value).hide();
+                    // $('.project-article').filter('.'+value).style.visibility='hidden';
                 }
             });
         });
