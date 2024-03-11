@@ -106,5 +106,14 @@
     .experience-details-container {
       padding: 0;
     }
+    .details-container {
+      margin-top: 20px;
+    }
+    .project-filter {
+      gap: 0rem;
+    }
+    .project-filter > li{
+      margin: 0;
+    }
   }
   
