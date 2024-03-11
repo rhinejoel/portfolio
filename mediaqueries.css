@@ -112,8 +112,14 @@
     .project-filter {
       gap: 0rem;
     }
-    .project-filter > li{
-      margin: 0;
+    .list {
+      font-size: 10px;
+    }
+    .project-article {
+      width: 60%;
+    }
+    .btn {
+      width: max-content;
     }
   }
   
