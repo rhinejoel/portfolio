@@ -482,6 +482,41 @@ section {
     height: auto;
 }
 
+#prj-base {
+    position: relative;
+
+}
+
+#prj-info {
+    display: none;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+#blur-filter {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    opacity: 90%;
+    filter: blur(10px);
+}
+
+#prj-base:hover #blur-filter {
+    display:block;
+}
+
+#prj-base:hover #prj-info {
+    display: block;
+}
+
 
 /* CONTACT */
 
