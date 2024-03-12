@@ -495,7 +495,6 @@ section {
     top: 50%;
     transform: translate(0, -50%);
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5)
 }
 
 #blur-filter {
@@ -507,7 +506,6 @@ section {
     bottom: 0;
     background-color: white;
     opacity: 90%;
-    filter: blur(10px);
 }
 
 #prj-base:hover #blur-filter {
