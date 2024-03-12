@@ -58,6 +58,7 @@
     #profile {
       height: 83vh;
       margin-bottom: 0;
+      background-image:radial-gradient(70% 50% at center, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("./assets/profile-bg.jpg");
     }
     article {
       font-size: 1rem;
