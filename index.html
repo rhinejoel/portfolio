@@ -315,6 +315,7 @@
     <section id="prj">
         <p class="section__text__p1">Browse Recent</p>
         <h1 class="title">Projects</h1>
+        <!-- PROJECT CATEGORY SELECTOR -->
         <ul class="project-filter">
             <li class="list project-filter-active" data-filter="all">All</li>
             <li class="list" data-filter="design">Design</li>
@@ -322,18 +323,25 @@
             <!-- <li class="list" data-filter="pm">Project Management</li> -->
             <li class="list" data-filter="it">IT Services</li>
         </ul>
+        <!-- MAIN PROJECT CONTAINER -->
         <div class="project-container">
+
+            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
             <div class="project-article design">
                 <h2>GW-CubeSat</h2>
+                <!-- PROJECT INFO SECTION -->
                 <div id="prj-base">
                     <img src="./assets/cube-sat-2.jpg" alt="Cube Sat 3D Assembly Image" class="project-box">
+                    <!-- ONHOVER INFO -->
                     <div id="blur-filter"></div>
                     <div id="prj-info">
                         <p><b>GW-CubeSat</b> - A Cube-Satellite project selected by <b>NASA's Cube Sat Launch Initiative (CSLI)</b> program. Worked as a <b>Structural and Thermals Engineer</b>. Created detailed CAD models in <b>Solidworks</b>. Configured the on-board camera and prepared its <b>User Documentation</b>.</p>
+                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+                        <a href="./assets/cube-sat-2.jpg" data-lightbox="cubesat" data-title="3D Printed Assembly">
+                            <button class="multi-media-button">See More</button>
+                        </a>
                     </div>
-                    <a href="./assets/cube-sat-2.jpg" data-lightbox="cubesat" data-title="3D Printed Assembly">
-                        <button class="multi-media-button">See More</button>
-                    </a>
+                    <!-- REMAINING MEDIA -->
                     <a href="./assets/cube-sat-3.jpg" data-lightbox="cubesat" data-title="3D Printed Assembly with Annotations"></a>
                     <a href="./assets/cube-sat-1.jpg" data-lightbox="cubesat" data-title="CubeSat Chassis and 3D Printed Assembly"></a>
                 </div>
@@ -342,17 +350,31 @@
                     <button class="btn btn-color-1" onclick="window.open('https://engineering.gwu.edu/gw-cubesat-relaunch')">Home</button>
                 </div>
             </div>
+
+            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
             <div class="project-article design">
                 <h2>Pilot Driven Hovercraft</h2>
+                <!-- PROJECT INFO SECTION -->
                 <div id="prj-base">
-                    <video class="project-box" height="600" controls>
-                        <source src="./assets/hovercraft.mov" type="video/mp4" alt="Hovercraft Project Video">
+                    <video class="project-box" height="600" controls autoplay>
+                        <source src="./assets/hovercraft-2.mov" type="video/mp4" alt="Hovercraft Project Video">
                     </video>
+                    <!-- ONHOVER INFO -->
                     <div id="blur-filter"></div>
                     <div id="prj-info">
                         <p><b>Hoverbolt 1.0</b> - A self-funded Pilot Driven Hovercraft project. <b>Team Leader</b> of a 10-member senior year Mechanical Engineering team. Developed multiple <b>Hand-Drawn Sketches</b> on paper before styling. Created deatiled <b>3D Models</b> of all individual parts in <b>SolidWorks</b> as well as conducted structural analysis. Responsible for <b>Engine Power Requirements</b> and selection, thrust requirements and <b>Propeller Selection</b> and <b>Overall Success</b> of project. Conducted <b>Vendor Negotiatiations</b> and <b>Procured Materials</b></p>
+                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+                        <a href="./assets/hov-1.JPG" data-lightbox="hovercraft" data-title="Hoverbolt 1.0 Team attaching the skirt">
+                            <button class="multi-media-button">See More</button>
+                        </a>
                     </div>
-                    <button class="multi-media-button">See More</button>
+                    <!-- REMAINING MEDIA -->
+                    <a href="./assets/hov-2.jpg" data-lightbox="hovercraft" data-title="Fins"></a>
+                    <a href="./assets/hov-3.jpg" data-lightbox="hovercraft" data-title="Duct"></a>
+                    <a href="./assets/hov-4.jpg" data-lightbox="hovercraft" data-title="Chassis"></a>
+                    <a href="./assets/hov-5.jpg" data-lightbox="hovercraft" data-title="Upper Plunum (Base)"></a>
+                    <a href="./assets/hov-6.JPG" data-lightbox="hovercraft" data-title="Sketches"></a>
+                    <a href="./assets/hov-7.JPG" data-lightbox="hovercraft" data-title="Exhibition With Other Teams - BAJA and ATV"></a>
                 </div>  
                 <div class="prj-btns">
                     <button class="btn btn-color-1" onclick="window.open('./assets/hovercraft-ppt.pdf')">Presentation</button>
@@ -418,9 +440,9 @@
 
         // LIGHTBOX TRANSITION SPEED
         lightbox.option({
-          'resizeDuration': 100,
-          'fadeDuration': 100,
-          'imageFadeDuration': 100,
+          'resizeDuration': 50,
+          'fadeDuration': 50,
+          'imageFadeDuration': 0,
           'wrapAround': false,
         })
     </script>

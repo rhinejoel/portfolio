@@ -491,11 +491,11 @@ section {
 }
 
 .multi-media-button {
-    display: none;
+    /* display: none;
     position: absolute;
     top: 95%;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%); */
     height: 40px;
     border-radius: 20px;
     width: 90px;
@@ -505,6 +505,7 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     font-family: inherit;
     cursor: pointer;
+    margin: 20px;
 }
 
 #prj-base {
@@ -519,6 +520,9 @@ section {
     top: 50%;
     transform: translate(0, -50%);
     text-align: center;
+    margin: 10px;
+    height: 80%;
+    overflow-y:auto;
 }
 
 #blur-filter {
@@ -540,9 +544,9 @@ section {
     display: block;
 }
 
-#prj-base:hover .multi-media-button {
+/* #prj-base:hover .multi-media-button {
     display: block;
-}
+} */
 
 
 /* CONTACT */
