@@ -173,6 +173,15 @@ section {
     padding-top: 80px;
 }
 
+.bio-container {
+    margin-top: 5rem;
+}
+
+.bio-container > small {
+    color: grey;
+    font-size: 17px;
+}
+
 .section__pic-container {
     display: flex;
     height: 400px;

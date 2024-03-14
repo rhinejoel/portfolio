@@ -13,6 +13,9 @@
   }
   
   @media screen and (max-width: 1200px) {
+    section {
+      min-height: 120vh;
+    }
     #desktop-nav {
       display: none;
     }
@@ -56,6 +59,13 @@
   }
   
   @media screen and (max-width: 600px) {
+    body {
+      overflow-x: hidden;
+    }
+    
+    section {
+      min-height: 120vh;
+    }
     #contact
     {
       height: 40vh;
@@ -68,6 +78,12 @@
       margin-bottom: 0;
       background-image:radial-gradient(90% 40% at center, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("./assets/profile-bg.jpg");
     }
+    .bio-container {
+      margin-top: 5rem;
+    }
+    .bio-container > small {
+      font-size: 15px;
+    }
     article {
       font-size: 1rem;
     }
@@ -79,6 +95,16 @@
     .contact-info-upper-container,
     .btn-container {
       flex-wrap: wrap;
+    }
+    .about-containers {
+      flex-direction: column;
+      gap: 0;
+    }
+    .details-container > p {
+      text-align: left;
+    }
+    .article-container {
+      text-align: left;
     }
     .contact-info-container {
       margin: 0.5rem;
