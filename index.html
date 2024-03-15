@@ -1,671 +1,1159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joel Rhine Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
-    <link rel="stylesheet" href="lightbox.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./assets/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="./assets/android-chrome-512x512.png">
-    <link rel="manifest" href="./assets/site.webmanifest">
-</head>
-<body>
-    <nav id="desktop-nav">
-        <div class="logo"> Joel Rhine</div>
-        <div>
-            <ul class="nav-links">
-                <li> <a href="#about">About</a></li>
-                <li> <a href="#experience">Experience</a></li>
-                <li> <a href="#prj">Projects</a></li>
-                <li> <a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo"> Joel Rhine</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li> <a href="#about" onclick="toggleMenu()">About</a></li>
-                <li> <a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li> <a href="#prj" onclick="toggleMenu()">Projects</a></li>
-                <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
-            </div>
-        </div>
-    </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile-pic-jr-4.png" alt="Joel Rhine Profile Picture">
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello &#128075; I'm</p>
-            <h1 class="title">Joel Rhine</h1>
-            <p class="section__text__p2">Remote Sensing Software Developer & Mechanical Engineer</p>
-            <div class="btn-container">
-                <button 
-                class="btn btn-color-2" 
-                onclick="window.open('./assets/jr-resume.pdf')">Resume
-                </button>
-                <button 
-                class="btn btn-color-1" 
-                onclick="location.href='./#contact'">Contact Info
-                </button>
-            </div>
-            <div id="socials-container">
-                <img 
-                src="./assets/linkedin.png" 
-                alt="My LinkedIn Profile" 
-                class="icon" 
-                onclick="window.open('https://linkedin.com/in/joel-rhine')"/>
-                <img 
-                src="./assets/github.png" 
-                alt="My Github Profile" 
-                class="icon" 
-                onclick="window.open('https://github.com/rhinejoel')"/>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Joel Rhine Home</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="mediaqueries.css" />
+		<link rel="stylesheet" href="lightbox.css" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/apple-touch-icon.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon-32x32.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/favicon-16x16.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="./assets/android-chrome-192x192.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="512x512"
+			href="./assets/android-chrome-512x512.png" />
+		<link rel="manifest" href="./assets/site.webmanifest" />
+	</head>
+	<body>
+		<nav id="desktop-nav">
+			<div class="logo">Joel Rhine</div>
+			<div>
+				<ul class="nav-links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#prj">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id="hamburger-nav">
+			<div class="logo">Joel Rhine</div>
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu-links">
+					<li><a href="#about" onclick="toggleMenu()">About</a></li>
+					<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+					<li><a href="#prj" onclick="toggleMenu()">Projects</a></li>
+					<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+				</div>
+			</div>
+		</nav>
+		<section id="profile">
+			<div class="section__pic-container">
+				<img
+					src="./assets/profile-pic-jr-4.png"
+					alt="Joel Rhine Profile Picture" />
+			</div>
+			<div class="section__text">
+				<p class="section__text__p1">Hello &#128075; I'm</p>
+				<h1 class="title">Joel Rhine</h1>
+				<p class="section__text__p2">
+					Remote Sensing Software Developer & Mechanical Engineer
+				</p>
+				<div class="btn-container">
+					<button
+						class="btn btn-color-2"
+						onclick="window.open('./assets/jr-resume.pdf')">
+						Resume
+					</button>
+					<button class="btn btn-color-1" onclick="location.href='./#contact'">
+						Contact Info
+					</button>
+				</div>
+				<div id="socials-container">
+					<img
+						src="./assets/linkedin.png"
+						alt="My LinkedIn Profile"
+						class="icon"
+						onclick="window.open('https://linkedin.com/in/joel-rhine')" />
+					<img
+						src="./assets/github.png"
+						alt="My Github Profile"
+						class="icon"
+						onclick="window.open('https://github.com/rhinejoel')" />
+				</div>
+				<div class="bio-container">
+					<small><i>A highly skilled cross-functional Project Manager seeking
+							opportunities in Remote-Sensing UAV Systems Development, boasting
+							a track record of success in dynamic environments, adeptly
+							managing risks, and consistently surpassing project
+							deliverables.</i></small>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<p class="section__text__p1">Get To Know More</p>
+			<h1 class="title">About Me</h1>
+			<div class="section-container">
+				<div class="section__pic-container">
+					<img
+						src="./assets/drone-pic.png"
+						alt="Profile Picture"
+						class="about-pic" />
+				</div>
+				<div class="about-details-container">
+					<div class="about-containers">
+						<div class="details-container">
+							<img
+								src="./assets/experience.png"
+								alt="Experience Icon"
+								class="Icon"
+								sizes="24" />
+							<h3>Experience</h3>
+							<p>
+								1.5 Years - RTK UAS/UAV Systems Development <br />3.5 Years -
+								GIS & Remote Sensing Software Development and Project Management
+							</p>
+						</div>
+						<div class="details-container">
+							<img
+								src="./assets/education.png"
+								alt="Education Icon"
+								class="Icon" />
+							<h3>Education</h3>
+							<p>
+								B.Sc. Mechanical Engineering <br />M.Sc. Mechanical & Aerospace
+								Engineering
+							</p>
+						</div>
+						<div class="details-container">
+							<img
+								src="./assets/us-status.png"
+								alt="USA Status Icon"
+								class="Icon" />
+							<h3>USA Visa Status</h3>
+							<p>
+								US Lawful Permanent Resident (LPR) / Green Card
+								<br />Citizenship Application Eligibility in 2025 (US Citizen
+								Spouse)
+							</p>
+						</div>
+					</div>
+					<div class="text-container">
+						<p>
+							<b> Mechanical Engineering </b> - Quadcopter & Fixed Wing Drone
+							Design | RTK/PPK Correction | Drone 2D & 3D Image Processing |
+							Licenced FAA Part 107 Drone Pilot
+							<b>Remote Sensing Software Engineering</b> - Spatial Process
+							Automation & QGIS Plugin Development | GIS Based Asset Management
+							Systems | International Development Projects Remote Sensing
+							Specialist <b>Technical Project Management</b> |
+							<b>International Mentorship</b> |
+							<b>Technical Proposal Development</b>
+						</p>
+					</div>
+				</div>
+			</div>
+			<img
+				src="./assets/arrow.png"
+				alt="Arrow Icon Next Section"
+				class="icon arrow"
+				onclick="location.href='./#positions'" />
+		</section>
+		<section id="positions">
+			<p class="section__text__p1">Check Out My</p>
+			<h1 class="title">Positions Held</h1>
 
-            </div>
-            <div class="bio-container">
-              <small><i>A highly skilled cross-functional Project Manager seeking opportunities in Remote-Sensing UAV Systems Development, boasting a track record of success in dynamic environments, adeptly managing risks, and consistently surpassing project deliverables.</i></small>
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/drone-pic.png" alt="Profile Picture" class="about-pic">
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience Icon" class="Icon" sizes="24">
-                        <h3>Experience</h3>
-                        <p>1.5 Years - RTK UAS/UAV Systems Development <br>3.5 Years - GIS & Remote Sensing Software Development and Project Management</p>
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" alt="Education Icon" class="Icon">
-                        <h3>Education</h3>
-                        <p>B.Sc. Mechanical Engineering <br>M.Sc. Mechanical & Aerospace Engineering</p>
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/us-status.png" alt="USA Status Icon" class="Icon">
-                        <h3>USA Visa Status</h3>
-                        <p>US Lawful Permanent Resident (LPR) / Green Card <br>Citizenship Application Eligibility in 2025 (US Citizen Spouse)</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p> <b> Mechanical Engineering </b> - Quadcopter & Fixed Wing Drone Design | RTK/PPK Correction | Drone 2D & 3D Image Processing | Licenced FAA Part 107 Drone Pilot
-                    <b>Remote Sensing Software Engineering</b> - Spatial Process Automation & QGIS Plugin Development | GIS Based Asset Management Systems | International Development Projects Remote Sensing Specialist
-                    <b>Technical Project Management</b> | <b>International Mentorship</b> | <b>Technical Proposal Development</b></p>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon Next Section" class="icon arrow" onclick="location.href='./#experience'">
-    </section>
-    <section id="positions">
-      <p class="section__text__p1">Check Out My</p>
-      <h1 class="title">Positions Held</h1>
-      <div class="card-container">
-        <div class="position-container">
-          <p>JULY 2023 - PRESENT</p>
-        </div>
-        <div class="task-container">
-          <p>Software Project Manager • Development Monitors Arlington, VA</p>
-          <h4>World Bank • Diagnostic and Decision Support Toolkit (ARTMS 2D)</h4>
-          <ul class="task">
-            <li>Led a team of 5 members to develop an Asset Management System for two pilot cities in India - Aizawl, Mizoram and Shimla, Himachal Pradesh</li>
-            <li>Developed software application in 4 weeks with simultaneous testing on Mac and Windows</li>
-            <li>Prepared Documentation</li>
-            <li>Prepared Training Manuals</li>
-          </ul>
-          <div class="skill-container">
-            <div class="skill">
-                <p>Python</p>
-            </div>    
-            <div class="skill">
-                <p>Postgres</p>
-            </div> 
-            <div class="skill">
-                <p>KoBoToolbox</p>
-            </div>   
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore Diverse</p>
-        <h1 class="title">Technical and Professional Skills</h1>
-        <div class="experience-details-container">
-            <div class="details-container">
-                <h2 class="experience-sub-title">UAV/UAS Systems</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>SolidWorks</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>ANSYS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>3D Printing</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Flight Plan (Mission Planner)</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Drone Pilot</h3>
-                                <p>Intermediate+</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Design Supervision</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>RTK/PPK (RTKLIB)</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Aerial Image Processing (ODM)</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                    </div>
-            </div>
-            <div class="details-container">
-                <h2 class="experience-sub-title">GIS Remote Sensing/Software</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>PyQGIS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>PyQT5</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>PostGIS</h3>
-                                <p>Intermediate+</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Mapping (OSM)</h3>
-                                <p>Intermediate+</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>2D/3D Cartography & Risk Analysis (QGIS)</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Complex Form Building (KoBoToolbox)</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>HTML/CSS/Javascript</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Git</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                    </div>
-            </div>
-            <div class="details-container">
-                <h2 class="experience-sub-title">Project Management/Admin</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>PM Methodologies</h3>
-                                <p>Intermediate+</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Notion</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>MS Suite</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Project Initiation</h3>
-                                <p>Intermediate+</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Risk Management</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Communication</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Leadership</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Organization</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Capacity Development</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
-                            <div>
-                                <h3>Public Speaking</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                    </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon Next Section" class="icon arrow" onclick="location.href='./#prj'">
-    </section>
-    <section id="prj">
-        <p class="section__text__p1">Browse Recent</p>
-        <h1 class="title">Projects</h1>
-        <!-- PROJECT CATEGORY SELECTOR -->
-        <ul class="project-filter">
-            <li class="list project-filter-active" data-filter="all">All</li>
-            <li class="list" data-filter="design">Design</li>
-            <li class="list" data-filter="gis">Remote Sensing</li>
-            <!-- <li class="list" data-filter="pm">Project Management</li> -->
-            <li class="list" data-filter="it">IT Services</li>
-        </ul>
-        <!-- MAIN PROJECT CONTAINER -->
-        <div class="project-container">
-            
-            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
-            <div class="project-article design">
-                <h2>UAV Systems</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <img src="./assets/drone-8.jpg" alt="RTK Drone Image" class="project-box">
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p>Design and supervision of multiple <b>Quadcopter and Fixed-Wing Drones</b> built at <b>Virginia Tech's Unmanned Systems Lab</b>. Planned misssions on <b>Mission Planner</b> and conducted flights in <b>Virginia Tech's Drone Testing Facility</b></p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/drone-1.png" data-lightbox="drone" data-title="RTK Drone - USL 500. Made in USA">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
-                    <a href="./assets/drone-2.png" data-lightbox="drone" data-title="RTK Drone - USL 500. Made in USA"></a>
-                    <a href="./assets/drone-3.png" data-lightbox="drone" data-title="Prototype 4 - Sub 250g Drone"></a>
-                    <a href="./assets/drone-4.png" data-lightbox="drone" data-title="Prototype 3"></a>
-                    <a href="./assets/drone-5.png" data-lightbox="drone" data-title="3D Printed Fixed-Wing"></a>
-                    <a href="./assets/drone-6.png" data-lightbox="drone" data-title="V-TOL Drone"></a>
-                    <a href="./assets/drone-7.JPG" data-lightbox="drone" data-title="RTK Base Station"></a>
-                    <a href="./assets/drone-8.jpg" data-lightbox="drone" data-title="USL 500 RTK Flight"></a>
-                </div>
-            </div>
+			<!-- MAIN POSITIONS CARD -->
+			<div class="card-container">
+				<!-- LEFT CONTAINER -->
+				<div class="position-container">
+					<p>May 2021 - Present</p>
+				</div>
+				<!-- RIGHT CONTAINER -->
+				<div class="task-container">
+					<p>Project Manager • GIS and Remote Sensing Software Development</p>
+					
+					<p>
+						<i>Development Monitors LLC, Arlington, VA</i>
+					</p>
+					<ul class="task">
+						<li>
+							<b>ARTMS 2D</b> – Led a 5-developer team throughout project life-cycle utilizing PyQGIS (python), PostgreSQL, kobotoolbox/kpi, WNTR (EPANET). Incorporated agile deliverables and defined KPIs at each stage of the project, meeting 100% of defined objectives
+						</li>
+						<li>
+							<b>ARTMS 3D</b> – Automated 3D terrain modelling using Sentinel 2 imagery (SentinelSat), USGS DEM (OpenTopography) and OSM data (OSMNX) reducing manual 3D generation time from 30 mins (proficient) to under 2 (non-expert) – 93% faster
+						</li>
+						<li>
+							<b>ARTMS AI</b> - Achieved above 80% IoU for Afghanistan buildings using 4cm HR aerial test and train imagery. Reduced manual creation time of building footprints in 1 Km2 from 20 mins (proficient) to under 1 min (non-expert) – 76% effective decrease in time and effort
+						</li>
+					</ul>
+					<!-- SKILLS CONTAINER -->
+					<div class="skill-container">
+						<!-- HARD SKILLS -->
+						<div class="skill">
+							<p>Python</p>
+						</div>
+						<div class="skill">
+							<p>Postgres</p>
+						</div>
+						<div class="skill">
+							<p>KoBoToolbox API</p>
+						</div>
+						<div class="skill">
+							<p>WNTR</p>
+						</div>
+						<div class="skill">
+							<p>3D Modelling</p>
+						</div>
+						<div class="skill">
+							<p>Sentinel 2</p>
+						</div>
+						<div class="skill">
+							<p>OSMNX</p>
+						</div>
+						<div class="skill">
+							<p>Building Detection</p>
+						</div>
+						
+						<!-- SOFT SKILLS -->
+						<div class="sskill">
+							<p>Leadership</p>
+						</div>
+						<div class="sskill">
+							<p>Agile</p>
+						</div>
+						<div class="sskill">
+							<p>Communication</p>
+						</div>
+						<div class="sskill">
+							<p>Mentorship</p>
+						</div>
+						<div class="sskill">
+							<p>Scheduling</p>
+						</div>
+						<div class="sskill">
+							<p>Risk Management</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END POSITIONS CARD -->
 
-            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
-            <div class="project-article gis it">
-                <h2>ARTMS 3D</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <img src="./assets/art3-1.png" alt="ARTMS 3D Image" class="project-box">
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p><b>Supervise and Development</b> of a 3D Web-Based GIS Application based on ThreeJS. Use <b>Sentinel-2 Data</b> for <b>Satellite Imagery</b>, <b>OSM Data</b> for <b>Infrastructure</b> and <b>USGS</b> for <b>Elevation Data</b> to render a <b>3D Terrain</b>. Developed the complete python code to fetch all the opensource data.</p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/art3-1.png" data-lightbox="art3" data-title="Different Building Categories Fetched from OSM and Rendered in 3D">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
-                    <a href="./assets/art3-2.png" data-lightbox="art3" data-title="3D Buildings with Specific Roof Type"></a>
-                    <a href="./assets/art3-3.png" data-lightbox="art3" data-title="3D Buildings overlayed on 3D Terrain"></a>
-                </div>
-            </div>
+			<!-- MAIN POSITIONS CARD -->
+			<div class="card-container">
+				<!-- LEFT CONTAINER -->
+				<div class="position-container">
+					<p>Jun 2019 - Apr 2021</p>
+				</div>
+				<!-- RIGHT CONTAINER -->
+				<div class="task-container">
+					<p>Mechanical Engineer • Remote Sensing UAV Development</p>
+					
+					<p>
+						<i>Development Monitors LLC, Arlington, VA</i>
+					</p>
+					<ul class="task">
+						<li>
+							Created computer aided design (CAD) models of UAV (drone) chassis in SolidWorks and 3D printed using Prusa 3D printer
+						</li>
+						<li>
+							Researched and built drone equipped with Pixhawk flight controller, planned missions in Mission Planner and Piloted Drones
+						</li>
+						<li>
+							Researched and built RTK GPS components (Ardusimple u-blox GPS, antenna, base station, and datalogger) and equipped drone with RTK
+						</li>
+						<li>
+							Generated 2D georeferenced images and 3D dem models using Open Drone Map (ODM) CLI
+						</li>
+						
+					</ul>
+					<!-- SKILLS CONTAINER -->
+					<div class="skill-container">
+						<!-- HARD SKILLS -->
+						<div class="skill">
+							<p>Python</p>
+						</div>
+						<div class="skill">
+							<p>Postgres</p>
+						</div>
+						<div class="skill">
+							<p>KoBoToolbox API</p>
+						</div>
+						<!-- SOFT SKILLS -->
+						<div class="sskill">
+							<p>Leadership</p>
+						</div>
+						<div class="sskill">
+							<p>Agile</p>
+						</div>
+						<div class="sskill">
+							<p>Communication</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END POSITIONS CARD -->
 
-            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
-            <div class="project-article gis">
-                <h2>ARTMS 2D</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <img src="./assets/art-5.png" alt="GIS Application Image" class="project-box">
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p><b>Led a 5-software and GIS developer team</b> to design and develop a <b>PyQGIS based-Disaster and Decision Support Toolkit</b>. Developed a <b>standardized schema</b> of data collection and storage in <b>Postgres</b> database for <b>Scalability and Robustness</b>. Managed project from its <b>Inception to Delivery</b></p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/art-1.png" data-lightbox="art2" data-title="Georeferenced Water Supply Disaster and Decision Support Toolkit">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
-                    <a href="./assets/art-2.png" data-lightbox="art2" data-title="Water Supply Network Visualized"></a>
-                    <a href="./assets/art-3.png" data-lightbox="art2" data-title="Asset Information by Clicking on Asset"></a>
-                    <a href="./assets/art-4.png" data-lightbox="art2" data-title="Water Suppy System Asset Database"></a>
-                    <a href="./assets/art-5.png" data-lightbox="art2" data-title="Natural Disaster Risk Vulnerability Assessment"></a>
-                </div>
-            </div>
+			
 
-            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
-            <div class="project-article it">
-                <h2>Responsive Portfolio Website</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <img src="./assets/port-1.jpeg" alt="GIS Application Image" class="project-box">
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p>This website. Clean Code. Developed using <b>HTML, CSS, JS</b></p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/port-1.jpeg" data-lightbox="art2" data-title="Mobile View">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
-                    <a href="./assets/port-2.png" data-lightbox="art2" data-title="Desktop View"></a>
-                </div>
-                <div class="prj-btns">
-                    <img 
-                        src="./assets/github.png" 
-                        alt="My Github Profile" 
-                        class="icon" 
-                        onclick="window.open('https://github.com/rhinejoel/portfolio')"/>
-                </div>
-            </div>
+			
+		</section>
+		<section id="experience">
+			<p class="section__text__p1">Explore Diverse</p>
+			<h1 class="title">Technical and Professional Skills</h1>
+			<div class="experience-details-container">
+				<div class="details-container">
+					<h2 class="experience-sub-title">UAV/UAS Systems</h2>
+					<div class="article-container">
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>SolidWorks</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>ANSYS</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>3D Printing</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Flight Plan (Mission Planner)</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Drone Pilot</h3>
+								<p>Intermediate+</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Design Supervision</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>RTK/PPK (RTKLIB)</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Aerial Image Processing (ODM)</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="details-container">
+					<h2 class="experience-sub-title">GIS Remote Sensing/Software</h2>
+					<div class="article-container">
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>PyQGIS</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>PyQT5</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>PostGIS</h3>
+								<p>Intermediate+</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Mapping (OSM)</h3>
+								<p>Intermediate+</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>2D/3D Cartography & Risk Analysis (QGIS)</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Complex Form Building (KoBoToolbox)</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>HTML/CSS/Javascript</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Git</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="details-container">
+					<h2 class="experience-sub-title">Project Management/Admin</h2>
+					<div class="article-container">
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>PM Methodologies</h3>
+								<p>Intermediate+</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Notion</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>MS Suite</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Project Initiation</h3>
+								<p>Intermediate+</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Risk Management</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Communication</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Leadership</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Organization</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Capacity Development</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img
+								src="./assets/checkmark.png"
+								alt="Experience Icon"
+								class="icon" />
+							<div>
+								<h3>Public Speaking</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<img
+				src="./assets/arrow.png"
+				alt="Arrow Icon Next Section"
+				class="icon arrow"
+				onclick="location.href='./#prj'" />
+		</section>
+		<section id="prj">
+			<p class="section__text__p1">Browse Recent</p>
+			<h1 class="title">Projects</h1>
+			<!-- PROJECT CATEGORY SELECTOR -->
+			<ul class="project-filter">
+				<li class="list project-filter-active" data-filter="all">All</li>
+				<li class="list" data-filter="design">Design</li>
+				<li class="list" data-filter="gis">Remote Sensing</li>
+				<!-- <li class="list" data-filter="pm">Project Management</li> -->
+				<li class="list" data-filter="it">IT Services</li>
+			</ul>
+			<!-- MAIN PROJECT CONTAINER -->
+			<div class="project-container">
+				<!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
+				<div class="project-article design">
+					<h2>UAV Systems</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<img
+							src="./assets/drone-8.jpg"
+							alt="RTK Drone Image"
+							class="project-box" />
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								Design and supervision of multiple
+								<b>Quadcopter and Fixed-Wing Drones</b> built at
+								<b>Virginia Tech's Unmanned Systems Lab</b>. Planned misssions
+								on <b>Mission Planner</b> and conducted flights in
+								<b>Virginia Tech's Drone Testing Facility</b>
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/drone-1.png"
+								data-lightbox="drone"
+								data-title="RTK Drone - USL 500. Made in USA">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+						<a
+							href="./assets/drone-2.png"
+							data-lightbox="drone"
+							data-title="RTK Drone - USL 500. Made in USA"></a>
+						<a
+							href="./assets/drone-3.png"
+							data-lightbox="drone"
+							data-title="Prototype 4 - Sub 250g Drone"></a>
+						<a
+							href="./assets/drone-4.png"
+							data-lightbox="drone"
+							data-title="Prototype 3"></a>
+						<a
+							href="./assets/drone-5.png"
+							data-lightbox="drone"
+							data-title="3D Printed Fixed-Wing"></a>
+						<a
+							href="./assets/drone-6.png"
+							data-lightbox="drone"
+							data-title="V-TOL Drone"></a>
+						<a
+							href="./assets/drone-7.JPG"
+							data-lightbox="drone"
+							data-title="RTK Base Station"></a>
+						<a
+							href="./assets/drone-8.jpg"
+							data-lightbox="drone"
+							data-title="USL 500 RTK Flight"></a>
+					</div>
+				</div>
 
-            <div class="project-article it">
-                <h2>Business Website Migration</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <img src="./assets/mig.png" alt="GIS Application Image" class="project-box">
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p><b>Migrated Website</b> from <b>Brinkster</b> to <b>Hostinger</b> as required by the client. Resolved Database issues and <b>Deployed Successfully</b></p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/mig.png" data-lightbox="mig" data-title="Mobile View">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
+				<!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
+				<div class="project-article gis it">
+					<h2>ARTMS 3D</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<img
+							src="./assets/art3-1.png"
+							alt="ARTMS 3D Image"
+							class="project-box" />
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								<b>Supervise and Development</b> of a 3D Web-Based GIS
+								Application based on ThreeJS. Use <b>Sentinel-2 Data</b> for
+								<b>Satellite Imagery</b>, <b>OSM Data</b> for
+								<b>Infrastructure</b> and <b>USGS</b> for
+								<b>Elevation Data</b> to render a <b>3D Terrain</b>. Developed
+								the complete python code to fetch all the opensource data.
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/art3-1.png"
+								data-lightbox="art3"
+								data-title="Different Building Categories Fetched from OSM and Rendered in 3D">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+						<a
+							href="./assets/art3-2.png"
+							data-lightbox="art3"
+							data-title="3D Buildings with Specific Roof Type"></a>
+						<a
+							href="./assets/art3-3.png"
+							data-lightbox="art3"
+							data-title="3D Buildings overlayed on 3D Terrain"></a>
+					</div>
+				</div>
 
-                </div>
-                <div class="prj-btns">
-                    <img 
-                        src="./assets/copy_link.svg" 
-                        alt="Tresses US Website Link" 
-                        class="icon" 
-                        onclick="window.open('http://www.tresses.us')"/>
-                </div>
-            </div>
+				<!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
+				<div class="project-article gis">
+					<h2>ARTMS 2D</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<img
+							src="./assets/art-5.png"
+							alt="GIS Application Image"
+							class="project-box" />
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								<b>Led a 5-software and GIS developer team</b> to design and
+								develop a
+								<b>PyQGIS based-Disaster and Decision Support Toolkit</b>.
+								Developed a <b>standardized schema</b> of data collection and
+								storage in <b>Postgres</b> database for
+								<b>Scalability and Robustness</b>. Managed project from its
+								<b>Inception to Delivery</b>
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/art-1.png"
+								data-lightbox="art2"
+								data-title="Georeferenced Water Supply Disaster and Decision Support Toolkit">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+						<a
+							href="./assets/art-2.png"
+							data-lightbox="art2"
+							data-title="Water Supply Network Visualized"></a>
+						<a
+							href="./assets/art-3.png"
+							data-lightbox="art2"
+							data-title="Asset Information by Clicking on Asset"></a>
+						<a
+							href="./assets/art-4.png"
+							data-lightbox="art2"
+							data-title="Water Suppy System Asset Database"></a>
+						<a
+							href="./assets/art-5.png"
+							data-lightbox="art2"
+							data-title="Natural Disaster Risk Vulnerability Assessment"></a>
+					</div>
+				</div>
 
-            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
-            <div class="project-article design gis">
-                <h2>Aerial Imagery</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <img src="./assets/ip-1.png" alt="ODM 2D" class="project-box">
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p>Planned Missions to <b>Capture RTK corrected Aerial Imagery</b>. Processed imagery to create <b>2D Orthophotos and 3D Orthorectified Models</b> using <b>Open Drone Map (ODM) CLI</b></p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/ip-1.png" data-lightbox="ip" data-title="ODM 2D Orthophoto">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
-                    <a href="./assets/ip-2.png" data-lightbox="ip" data-title="Flight Mission Plan"></a>
-                    <a href="./assets/ip-3.png" data-lightbox="ip" data-title="ODM 2D Orthophoto"></a>
-                    <a href="./assets/ip-4.png" data-lightbox="ip" data-title="ODM Orthorectified 3D Model"></a>
-                </div>
-            </div>
+				<!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
+				<div class="project-article it">
+					<h2>Responsive Portfolio Website</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<img
+							src="./assets/port-1.jpeg"
+							alt="GIS Application Image"
+							class="project-box" />
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								This website. Clean Code. Developed using <b>HTML, CSS, JS</b>
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/port-1.jpeg"
+								data-lightbox="art2"
+								data-title="Mobile View">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+						<a
+							href="./assets/port-2.png"
+							data-lightbox="art2"
+							data-title="Desktop View"></a>
+					</div>
+					<div class="prj-btns">
+						<img
+							src="./assets/github.png"
+							alt="My Github Profile"
+							class="icon"
+							onclick="window.open('https://github.com/rhinejoel/portfolio')" />
+					</div>
+				</div>
 
-            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
-            <div class="project-article gis">
-                <h2>Cartography</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <img src="./assets/2d-map-2.jpg" alt="Security Map" class="project-box">
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p>Created Detailed 2D maps in <b>QGIS</b>. Constraints on adding more maps due to sensitive data</p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/2d-map-2.jpg" data-lightbox="2d" data-title="Security Map">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
-                    <a href="./assets/2d-map-1.jpg" data-lightbox="2d" data-title="Flight Mission Plan"></a>
-                    <a href="./assets/2d-map-3.jpg" data-lightbox="2d" data-title="ODM 2D Orthophoto"></a>
-                    <a href="./assets/2d-map-4.jpg" data-lightbox="2d" data-title="ODM Orthorectified 3D Model"></a>
-                </div>
-            </div>
+				<div class="project-article it">
+					<h2>Business Website Migration</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<img
+							src="./assets/mig.png"
+							alt="GIS Application Image"
+							class="project-box" />
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								<b>Migrated Website</b> from <b>Brinkster</b> to
+								<b>Hostinger</b> as required by the client. Resolved Database
+								issues and <b>Deployed Successfully</b>
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/mig.png"
+								data-lightbox="mig"
+								data-title="Mobile View">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+					</div>
+					<div class="prj-btns">
+						<img
+							src="./assets/copy_link.svg"
+							alt="Tresses US Website Link"
+							class="icon"
+							onclick="window.open('http://www.tresses.us')" />
+					</div>
+				</div>
 
-            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
-            <div class="project-article gis">
-                <h2>Building Detection</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <img src="./assets/ml-1.png" alt="Building Detection Image" class="project-box">
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p>Managed development and training of a <b>Building Detection Model</b> suitable to detect mud-roof buildings in <b>Afghanistan</b> and urban buildings in <b>USA</b>. Developed a <b>Mapbox-Based GIS Application</b> and integrated model. Conducted <b>Flood Risk Analysis</b> on detected buildings</p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/ml-1.png" data-lightbox="2d" data-title="Detected Building Footprints">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
-                    <a href="./assets/ml-4.png" data-lightbox="2d" data-title="Supervised Development of 2D Mapbox Application to Detect Buildings in Blacksburg, VA"></a>
-                    <a href="./assets/ml-5.png" data-lightbox="2d" data-title="Flood Risk Intersection on Detected Buildings in Blacksburg, VA"></a>
-                </div>
-            </div>
+				<!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
+				<div class="project-article design gis">
+					<h2>Aerial Imagery</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<img src="./assets/ip-1.png" alt="ODM 2D" class="project-box" />
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								Planned Missions to <b>Capture RTK corrected Aerial Imagery</b>.
+								Processed imagery to create
+								<b>2D Orthophotos and 3D Orthorectified Models</b> using
+								<b>Open Drone Map (ODM) CLI</b>
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/ip-1.png"
+								data-lightbox="ip"
+								data-title="ODM 2D Orthophoto">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+						<a
+							href="./assets/ip-2.png"
+							data-lightbox="ip"
+							data-title="Flight Mission Plan"></a>
+						<a
+							href="./assets/ip-3.png"
+							data-lightbox="ip"
+							data-title="ODM 2D Orthophoto"></a>
+						<a
+							href="./assets/ip-4.png"
+							data-lightbox="ip"
+							data-title="ODM Orthorectified 3D Model"></a>
+					</div>
+				</div>
 
-            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
-            <div class="project-article design">
-                <h2>GW-CubeSat</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <img src="./assets/cube-sat-2.jpg" alt="Cube Sat 3D Assembly Image" class="project-box">
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p><b>GW-CubeSat</b> - A Cube-Satellite project selected by <b>NASA's Cube Sat Launch Initiative (CSLI)</b> program. Worked as a <b>Structural and Thermals Engineer</b>. Created detailed CAD models in <b>Solidworks</b>. Configured the on-board camera and prepared its <b>User Documentation</b>.</p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/cube-sat-2.jpg" data-lightbox="cubesat" data-title="3D Printed Assembly">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
-                    <a href="./assets/cube-sat-3.jpg" data-lightbox="cubesat" data-title="3D Printed Assembly with Annotations"></a>
-                    <a href="./assets/cube-sat-1.jpg" data-lightbox="cubesat" data-title="CubeSat Chassis and 3D Printed Assembly"></a>
-                </div>
-                <div class="prj-btns">
-                    <button class="btn btn-color-1" onclick="window.open('https://www.nanosats.eu/sat/gw-sat')">Status</button>
-                    <button class="btn btn-color-1" onclick="window.open('https://engineering.gwu.edu/gw-cubesat-relaunch')">Home</button>
-                </div>
-            </div>
+				<!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
+				<div class="project-article gis">
+					<h2>Cartography</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<img
+							src="./assets/2d-map-2.jpg"
+							alt="Security Map"
+							class="project-box" />
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								Created Detailed 2D maps in <b>QGIS</b>. Constraints on adding
+								more maps due to sensitive data
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/2d-map-2.jpg"
+								data-lightbox="2d"
+								data-title="Security Map">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+						<a
+							href="./assets/2d-map-1.jpg"
+							data-lightbox="2d"
+							data-title="Flight Mission Plan"></a>
+						<a
+							href="./assets/2d-map-3.jpg"
+							data-lightbox="2d"
+							data-title="ODM 2D Orthophoto"></a>
+						<a
+							href="./assets/2d-map-4.jpg"
+							data-lightbox="2d"
+							data-title="ODM Orthorectified 3D Model"></a>
+					</div>
+				</div>
 
-            <!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
-            <div class="project-article design">
-                <h2>Pilot Driven Hovercraft</h2>
-                <!-- PROJECT INFO SECTION -->
-                <div id="prj-base">
-                    <video class="project-box" height="600" controls autoplay loop>
-                        <source src="./assets/hovercraft-2.mov" type="video/mp4" alt="Hovercraft Project Video">
-                    </video>
-                    <!-- ONHOVER INFO -->
-                    <div id="blur-filter"></div>
-                    <div id="prj-info">
-                        <p><b>Hoverbolt 1.0</b> - A self-funded Pilot Driven Hovercraft project. <b>Team Leader</b> of a 10-member senior year Mechanical Engineering team. Developed multiple <b>Hand-Drawn Sketches</b> on paper before styling. Created deatiled <b>3D Models</b> of all individual parts in <b>SolidWorks</b> as well as conducted structural analysis. Responsible for <b>Engine Power Requirements</b> and selection, thrust requirements and <b>Propeller Selection</b> and <b>Overall Success</b> of project. Conducted <b>Vendor Negotiatiations</b> and <b>Procured Materials</b></p>
-                        <!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
-                        <a href="./assets/hov-1.JPG" data-lightbox="hovercraft" data-title="Hoverbolt 1.0 Team attaching the skirt">
-                            <button class="multi-media-button">See More</button>
-                        </a>
-                    </div>
-                    <!-- REMAINING MEDIA -->
-                    <a href="./assets/hov-2.jpg" data-lightbox="hovercraft" data-title="Fins"></a>
-                    <a href="./assets/hov-3.jpg" data-lightbox="hovercraft" data-title="Duct"></a>
-                    <a href="./assets/hov-4.jpg" data-lightbox="hovercraft" data-title="Chassis"></a>
-                    <a href="./assets/hov-5.jpg" data-lightbox="hovercraft" data-title="Upper Plunum (Base)"></a>
-                    <a href="./assets/hov-6.JPG" data-lightbox="hovercraft" data-title="Sketches"></a>
-                    <a href="./assets/hov-7.JPG" data-lightbox="hovercraft" data-title="Exhibition With Other Teams - BAJA and ATV"></a>
-                </div>  
-                <div class="prj-btns">
-                    <button class="btn btn-color-1" onclick="window.open('./assets/hovercraft-ppt.pdf')">Presentation</button>
-                    <button class="btn btn-color-1" onclick="window.open('./assets/hovercraft-report.pdf')">Report</button>
-                </div>
-            </div>  
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon Next Section" class="icon arrow" onclick="location.href='./#contact'">
-    </section>
-    <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img src="./assets/email.png" alt="email icon" class="email-icon">
-                <p><a href="mailto:joel@joelrhine.tech">joel@joelrhine.tech</a></p>
-            </div>
-        
-            <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
-                <p><a href="https://linkedin.com/in/joel-rhine", target="_blank">LinkedIn</a></p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <nav>
-            <div class="nav-links">
-                <ul class="nav-links">
-                    <li> <a href="#about">About</a></li>
-                    <li> <a href="#experience">Experience</a></li>
-                    <!-- <li> <a href="#projects">Projects</a></li> -->
-                    <li> <a href="#prj">Projects</a></li>
-                    <li> <a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <p>Copyright &#169; 2024 Joel Rhine. All Rights Reserved</p>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="lightbox-plus-jquery.js"></script>
-    <script src="script.js"></script>
-    <script>
+				<!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
+				<div class="project-article gis">
+					<h2>Building Detection</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<img
+							src="./assets/ml-1.png"
+							alt="Building Detection Image"
+							class="project-box" />
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								Managed development and training of a
+								<b>Building Detection Model</b> suitable to detect mud-roof
+								buildings in <b>Afghanistan</b> and urban buildings in
+								<b>USA</b>. Developed a <b>Mapbox-Based GIS Application</b> and
+								integrated model. Conducted <b>Flood Risk Analysis</b> on
+								detected buildings
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/ml-1.png"
+								data-lightbox="2d"
+								data-title="Detected Building Footprints">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+						<a
+							href="./assets/ml-4.png"
+							data-lightbox="2d"
+							data-title="Supervised Development of 2D Mapbox Application to Detect Buildings in Blacksburg, VA"></a>
+						<a
+							href="./assets/ml-5.png"
+							data-lightbox="2d"
+							data-title="Flood Risk Intersection on Detected Buildings in Blacksburg, VA"></a>
+					</div>
+				</div>
 
-        // SELECT SPECIFIC PROJECTS
-        $(document).on('click', '.project-filter li', function() {
-            $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active')
+				<!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
+				<div class="project-article design">
+					<h2>GW-CubeSat</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<img
+							src="./assets/cube-sat-2.jpg"
+							alt="Cube Sat 3D Assembly Image"
+							class="project-box" />
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								<b>GW-CubeSat</b> - A Cube-Satellite project selected by
+								<b>NASA's Cube Sat Launch Initiative (CSLI)</b> program. Worked
+								as a <b>Structural and Thermals Engineer</b>. Created detailed
+								CAD models in <b>Solidworks</b>. Configured the on-board camera
+								and prepared its <b>User Documentation</b>.
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/cube-sat-2.jpg"
+								data-lightbox="cubesat"
+								data-title="3D Printed Assembly">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+						<a
+							href="./assets/cube-sat-3.jpg"
+							data-lightbox="cubesat"
+							data-title="3D Printed Assembly with Annotations"></a>
+						<a
+							href="./assets/cube-sat-1.jpg"
+							data-lightbox="cubesat"
+							data-title="CubeSat Chassis and 3D Printed Assembly"></a>
+					</div>
+					<div class="prj-btns">
+						<button
+							class="btn btn-color-1"
+							onclick="window.open('https://www.nanosats.eu/sat/gw-sat')">
+							Status
+						</button>
+						<button
+							class="btn btn-color-1"
+							onclick="window.open('https://engineering.gwu.edu/gw-cubesat-relaunch')">
+							Home
+						</button>
+					</div>
+				</div>
+
+				<!-- INIDVIDUAL PROJECT CONTAINERS // 2nd CLASS SHOULD HAVE PRO. CAT. DATA-FILTER -->
+				<div class="project-article design">
+					<h2>Pilot Driven Hovercraft</h2>
+					<!-- PROJECT INFO SECTION -->
+					<div id="prj-base">
+						<video class="project-box" height="600" controls autoplay loop>
+							<source
+								src="./assets/hovercraft-2.mov"
+								type="video/mp4"
+								alt="Hovercraft Project Video" />
+						</video>
+						<!-- ONHOVER INFO -->
+						<div id="blur-filter"></div>
+						<div id="prj-info">
+							<p>
+								<b>Hoverbolt 1.0</b> - A self-funded Pilot Driven Hovercraft
+								project. <b>Team Leader</b> of a 10-member senior year
+								Mechanical Engineering team. Developed multiple
+								<b>Hand-Drawn Sketches</b> on paper before styling. Created
+								deatiled <b>3D Models</b> of all individual parts in
+								<b>SolidWorks</b> as well as conducted structural analysis.
+								Responsible for <b>Engine Power Requirements</b> and selection,
+								thrust requirements and <b>Propeller Selection</b> and
+								<b>Overall Success</b> of project. Conducted
+								<b>Vendor Negotiatiations</b> and <b>Procured Materials</b>
+							</p>
+							<!-- MULTI MEDIA LIGHTBOX // DATA-LIGHTBOX SHOULD HAVE SAME VALUES FOR RELATED MEDIA-->
+							<a
+								href="./assets/hov-1.JPG"
+								data-lightbox="hovercraft"
+								data-title="Hoverbolt 1.0 Team attaching the skirt">
+								<button class="multi-media-button">See More</button>
+							</a>
+						</div>
+						<!-- REMAINING MEDIA -->
+						<a
+							href="./assets/hov-2.jpg"
+							data-lightbox="hovercraft"
+							data-title="Fins"></a>
+						<a
+							href="./assets/hov-3.jpg"
+							data-lightbox="hovercraft"
+							data-title="Duct"></a>
+						<a
+							href="./assets/hov-4.jpg"
+							data-lightbox="hovercraft"
+							data-title="Chassis"></a>
+						<a
+							href="./assets/hov-5.jpg"
+							data-lightbox="hovercraft"
+							data-title="Upper Plunum (Base)"></a>
+						<a
+							href="./assets/hov-6.JPG"
+							data-lightbox="hovercraft"
+							data-title="Sketches"></a>
+						<a
+							href="./assets/hov-7.JPG"
+							data-lightbox="hovercraft"
+							data-title="Exhibition With Other Teams - BAJA and ATV"></a>
+					</div>
+					<div class="prj-btns">
+						<button
+							class="btn btn-color-1"
+							onclick="window.open('./assets/hovercraft-ppt.pdf')">
+							Presentation
+						</button>
+						<button
+							class="btn btn-color-1"
+							onclick="window.open('./assets/hovercraft-report.pdf')">
+							Report
+						</button>
+					</div>
+				</div>
+			</div>
+			<img
+				src="./assets/arrow.png"
+				alt="Arrow Icon Next Section"
+				class="icon arrow"
+				onclick="location.href='./#contact'" />
+		</section>
+		<section id="contact">
+			<p class="section__text__p1">Get in Touch</p>
+			<h1 class="title">Contact Me</h1>
+			<div class="contact-info-upper-container">
+				<div class="contact-info-container">
+					<img src="./assets/email.png" alt="email icon" class="email-icon" />
+					<p><a href="mailto:joel@joelrhine.tech">joel@joelrhine.tech</a></p>
+				</div>
+
+				<div class="contact-info-container">
+					<img
+						src="./assets/linkedin.png"
+						alt="linkedin icon"
+						class="icon contact-icon" />
+					<p>
+						<a href="https://linkedin.com/in/joel-rhine" ,
+							target="_blank">LinkedIn</a>
+					</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<div class="nav-links">
+					<ul class="nav-links">
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<!-- <li> <a href="#projects">Projects</a></li> -->
+						<li><a href="#prj">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p>Copyright &#169; 2024 Joel Rhine. All Rights Reserved</p>
+		</footer>
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="lightbox-plus-jquery.js"></script>
+		<script src="script.js"></script>
+		<script>
+      // SELECT SPECIFIC PROJECTS
+      $(document).on("click", ".project-filter li", function () {
+        $(this)
+          .addClass("project-filter-active")
+          .siblings()
+          .removeClass("project-filter-active");
+      });
+
+      $(document).ready(function () {
+        $(".list").click(function () {
+          const value = $(this).attr("data-filter");
+          if (value == "all") {
+            $(".project-article").show(300);
+          } else {
+            console.log(value);
+            $(".project-article")
+              .not("." + value)
+              .hide(300);
+            $(".project-article")
+              .filter("." + value)
+              .show(300);
+          }
         });
+      });
 
-        $(document).ready(function(){
-            $('.list').click(function() {
-                const value = $(this).attr('data-filter');
-                if(value == 'all') {
-                    $('.project-article').show(300);
-                }
-                else {
-                    console.log(value)
-                    $('.project-article').not('.'+value).hide(300);
-                    $('.project-article').filter('.'+value).show(300);
-                }
-            });
-        });
-
-        // LIGHTBOX TRANSITION SPEED
-        lightbox.option({
-          'resizeDuration': 50,
-          'fadeDuration': 50,
-          'imageFadeDuration': 0,
-          'wrapAround': false,
-        })
+      // LIGHTBOX TRANSITION SPEED
+      lightbox.option({
+        resizeDuration: 50,
+        fadeDuration: 50,
+        imageFadeDuration: 0,
+        wrapAround: false,
+      });
     </script>
-</body>
+	</body>
 </html>
