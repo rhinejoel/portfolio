@@ -370,7 +370,7 @@ section {
     border-radius: 7px;
     padding-left: 40px;    
     text-align: left;
-    width: 40%;
+    width: 60%;
 }
 
 .task-container > p, .task-container > ul {
@@ -410,6 +410,7 @@ section {
 .task > li {
     list-style: circle;
     font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .skill-container {
