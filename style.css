@@ -379,12 +379,6 @@ section {
     transform: translate(-4px, 4px);
 }
 
-.card-link {
-    height: 20px;
-    width: 20px;
-    transform: translate(-6px, 6px);
-}
-
 .task-container > p, .task-container > ul {
     color: rgb(135, 135, 135);
 }
@@ -603,9 +597,15 @@ section {
 }
 
 .project-article > h2 {
-    color: black;
-    opacity: 0.5;
+    color: rgb(98, 98, 98);
     margin-bottom: 10px;
+}
+
+.card-link {
+    height: 20px;
+    width: 20px;
+    transform: translate(-6px, 6px);
+    opacity: 0.99;
 }
 
 .project-box {
