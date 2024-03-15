@@ -183,7 +183,7 @@
       padding: 2px;
     }
     .position-container p {
-      font-size: 15px;
+      font-size: 13px;
     }
     .task-container {
       border: none;
@@ -195,7 +195,12 @@
     }
     .task-container > p {
         color: rgb(23, 81, 104);
+        font-size: 15px;
     }
+    .task-container > p:nth-child(2) {
+      font-size: 15px;
+    }
+
     .task-container > ul {
         color: rgb(0, 0, 0);
     }
@@ -205,7 +210,7 @@
     .task-container  > .skill-container > .sskill {
         background-color: rgb(240, 233, 226);
     }
-    .task-container:hover {
+    .card-container:hover > .task-container {
       background-color: none;
       box-shadow: none;
     }

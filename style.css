@@ -373,6 +373,18 @@ section {
     width: 40%;
 }
 
+.project-link {
+    height: 15px;
+    width: 15px;
+    transform: translate(-4px, 4px);
+}
+
+.card-link {
+    height: 20px;
+    width: 20px;
+    transform: translate(-6px, 6px);
+}
+
 .task-container > p, .task-container > ul {
     color: rgb(135, 135, 135);
 }
@@ -394,6 +406,11 @@ section {
 
 .task-container:hover > ul {
     color: rgb(0, 0, 0);
+}
+
+.task-container:hover .project-link {
+    transform: translate(0, 0);
+    transition: transform 500ms ease;
 }
 
 .task-container > p {
@@ -668,6 +685,11 @@ section {
 
 #prj-base:hover #prj-info {
     display: block;
+}
+
+.project-article:hover .card-link {
+    transform: translate(0, 0);
+    transition: transform 500ms ease;
 }
 
 /* #prj-base:hover .multi-media-button {
