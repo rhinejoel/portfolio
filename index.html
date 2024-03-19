@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		// META TAGS
+		<meta property="og:title" content="Joel Rhine Home" />
+		<meta property="og:image" content="./assets/favicon-32x32.png" />
+		<meta property="og:description" content="Joel RHine Home - Remote Sensing Software Developer & Mechanical Engineer" />
 		<title>Joel Rhine Home</title>
 		<link rel="stylesheet" href="style_1.0.1.css" />
 		<link rel="stylesheet" href="mediaqueries_1.0.1.css" />
@@ -1227,39 +1231,39 @@
 			src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="lightbox-plus-jquery.js"></script>
 		<script src="script.js"></script>
-		<script>
-      // SELECT SPECIFIC PROJECTS
-      $(document).on("click", ".project-filter li", function () {
-        $(this)
-          .addClass("project-filter-active")
-          .siblings()
-          .removeClass("project-filter-active");
-      });
+		<script>			
+			// SELECT SPECIFIC PROJECTS
+			$(document).on("click", ".project-filter li", function () {
+				$(this)
+				.addClass("project-filter-active")
+				.siblings()
+				.removeClass("project-filter-active");
+			});
 
-      $(document).ready(function () {
-        $(".list").click(function () {
-          const value = $(this).attr("data-filter");
-          if (value == "all") {
-            $(".project-article").show(300);
-          } else {
-            console.log(value);
-            $(".project-article")
-              .not("." + value)
-              .hide(300);
-            $(".project-article")
-              .filter("." + value)
-              .show(300);
-          }
-        });
-      });
+			$(document).ready(function () {
+				$(".list").click(function () {
+				const value = $(this).attr("data-filter");
+				if (value == "all") {
+					$(".project-article").show(300);
+				} else {
+					console.log(value);
+					$(".project-article")
+					.not("." + value)
+					.hide(300);
+					$(".project-article")
+					.filter("." + value)
+					.show(300);
+				}
+				});
+			});
 
-      // LIGHTBOX TRANSITION SPEED
-      lightbox.option({
-        resizeDuration: 50,
-        fadeDuration: 50,
-        imageFadeDuration: 0,
-        wrapAround: false,
-      });
-    </script>
+			// LIGHTBOX TRANSITION SPEED
+			lightbox.option({
+				resizeDuration: 50,
+				fadeDuration: 50,
+				imageFadeDuration: 0,
+				wrapAround: false,
+			});
+		</script>
 	</body>
 </html>
