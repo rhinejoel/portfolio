@@ -83,6 +83,11 @@
 						onclick="window.open('./assets/jr-resume.pdf')">
 						Resume
 					</button>
+					<button
+						class="btn btn-color-2"
+						onclick="window.open('./assets/jr-resume-wb.pdf')">
+						World Bank CV
+					</button>
 					<button class="btn btn-color-1" onclick="location.href='./#contact'">
 						Contact Info
 					</button>
@@ -1243,15 +1248,15 @@
 				$(".list").click(function () {
 				const value = $(this).attr("data-filter");
 				if (value == "all") {
-					$(".project-article").show(300);
+					$(".project-article").show();
 				} else {
 					console.log(value);
 					$(".project-article")
 					.not("." + value)
-					.hide(300);
+					.hide();
 					$(".project-article")
 					.filter("." + value)
-					.show(300);
+					.show();
 				}
 				});
 			});
@@ -1262,6 +1267,7 @@
 				fadeDuration: 50,
 				imageFadeDuration: 0,
 				wrapAround: false,
+				alwaysShowNavOnTouchDevices: true
 			});
 		</script>
 	</body>
