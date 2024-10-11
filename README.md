@@ -8,13 +8,15 @@
 
 <br />
 
-<div>
-    <div align="center">
-      <a href="https://joelrhine.tech">
-        <img src="assets/android-chrome-192x192.png" alt="Logo" width="80" height="80">
-      </a>
-    <h3 align = "center"> Personal Portfolio Website</h3>
+
+<div align="center">
+  <a href="https://joelrhine.tech">
+    <img src="assets/android-chrome-192x192.png" alt="Logo" width="80" height="80">
+  </a>
+  <h3 align = "center"> Responsive Professional Website</h3>
+  <img src="assets/readme-imgs/responsive.png" alt="Desktop">
 </div>
+
 
 <!-- TABLE OF CONTENTS -->
 <details open>
@@ -30,7 +32,7 @@
 
 
 ## Built With
-HTML, CSS and JS understanding fundamentals of web development. Deployed on Hostinger.
+Responsive website built using HTML, CSS and JS, understanding fundamentals of web development. Deployed on Hostinger. 
 
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
