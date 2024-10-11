@@ -75,15 +75,15 @@ Worked off of NeetCode.io's Full Stack developer course by [Navdeep Singh](https
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/youtube-clone.svg?style=for-the-badge
-[contributors-url]: https://github.com/rhinejoel/youtube-clone/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/rhinejoel/youtube-clone.svg?style=for-the-badge
-[forks-url]: https://github.com/rhinejoel/youtube-clone/network/members
-[stars-shield]: https://img.shields.io/github/stars/rhinejoel/youtube-clone.svg?style=for-the-badge
-[stars-url]: https://github.com/rhinejoel/youtube-clone/stargazers
-[issues-shield]: https://img.shields.io/github/issues/rhinejoel/youtube-clone.svg?style=for-the-badge
-[issues-url]: https://github.com/rhinejoel/youtube-clone/issues
-[license-shield]: https://img.shields.io/github/license/rhinejoel/youtube-clone.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/rhinejoel/portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/rhinejoel/portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/rhinejoel/portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/rhinejoel/portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/rhinejoel/portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/rhinejoel/portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/rhinejoel/portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/rhinejoel/portfolio/issues
+[license-shield]: https://img.shields.io/github/license/rhinejoel/portfolio.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joel-rhine
