@@ -63,7 +63,6 @@ Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-Worked off of NeetCode.io's Full Stack developer course by [Navdeep Singh](https://www.linkedin.com/in/navdeep-singh-3aaa14161/)
 
 * [Responsive Portfolio Website From Scratch](https://www.youtube.com/watch?v=ldwlOzRvYOU)
 * [Lokesh Dhakar - Lightbox](https://lokeshdhakar.com/projects/lightbox2/)
