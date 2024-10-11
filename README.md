@@ -93,7 +93,7 @@ Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joel-rhine
 
-[Figma]: https://img.shields.io/badge/figma-D93BDB?style=for-the-badge&logo=host&logoColor=white
+[Figma]: https://img.shields.io/badge/figma-D93BDB?style=for-the-badge&logo=figma&logoColor=white
 [Figma-url]: https://www.figma.com
 [HTML]: https://img.shields.io/badge/html5-DE6952?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
