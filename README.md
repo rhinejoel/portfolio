@@ -45,22 +45,18 @@ Responsive website built using Figma, HTML, CSS and JS, understanding fundamenta
 * [![JavaScript][JavaScript]][JavaScript-url]
 * [![Hostinger][Hostinger]][Hostinger-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Contributors:
 
 <a href="https://github.com/rhinejoel/portfolio/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rhinejoel/portfolio" alt="contrib.rocks image" />
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
@@ -68,7 +64,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Joel Rhine: [Email](mailto:joelrhine7@gmail.com)
 Website Link: [Joel Rhine | Home](https://joelrhine.tech)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
