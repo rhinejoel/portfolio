@@ -8,14 +8,16 @@
 
 <br />
 
-
 <div align="center">
   <a href="https://joelrhine.tech">
     <img src="assets/android-chrome-192x192.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align = "center"> Responsive Professional Website</h3>
-  <img src="assets/readme-imgs/responsive.png" alt="Desktop">
+  <div class = "image-row">
+    <img src="assets/readme-imgs/responsive.png" alt="Desktop">
+  </div>
 </div>
+<br />
 
 
 <!-- TABLE OF CONTENTS -->
